@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navigation from './Navigation/Nagivation.js';
 import Logo from './Logo/Logo.js';
 import ImageLinkForm from './ImageLinkForm/ImageLinkForm.js';
+import Rank from './Rank/Rank.js';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <Navigation />
         <Logo />
         <ImageLinkForm />
+        <Rank />
       </div>
     );
   }
